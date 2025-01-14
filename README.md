@@ -9,13 +9,13 @@ Local config for development.
 
 
 - now go to `openmrs-esm-form-builder-telemedicine` directory. 
-- run `npm link @openmrs/esm-form-engine-lib`. After that `yarn` or `npm install`.
+- run `npm link @openmrs/esm-form-engine-lib --legacy-peer-deps`. After that `yarn` or `npm install`.
 - finally run `yarn dev`. Now if user make any changes into`esm-form-engine-lib` it will reflect in real time into `openmrs-esm-form-builder-telemedicine`.
 
 
 ### Deployment
-- Push the code into `live` branch of gitHub.
-- Open the `package.json` of the target project and add the library to the `dependencies` section with the GitHub link, like this: 
+- push the code into `live` branch of gitHub.
+- open the `package.json` of the target project and add the library to the `dependencies` section with the GitHub link, like this: 
   ```
   "dependencies": {
         "@openmrs/esm-form-engine-lib": "https://github.com/Mpower-social/openmrs-esm-form-engine-lib-telemedicine.git#live",
