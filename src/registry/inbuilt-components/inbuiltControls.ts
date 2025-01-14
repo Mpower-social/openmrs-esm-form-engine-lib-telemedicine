@@ -40,10 +40,10 @@ export const inbuiltControls: Array<RegistryItem<React.ComponentType<FormFieldIn
     name: 'checkbox',
     component: MultiSelect,
   },
-  // {
-  //   name: 'radio',
-  //   component: Radio,
-  // },
+  {
+    name: 'radio',
+    component: Radio,
+  },
   {
     name: 'date',
     component: DateField,

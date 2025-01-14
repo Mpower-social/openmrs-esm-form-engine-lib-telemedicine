@@ -1,4 +1,4 @@
-## Installation
+## Instructions
 
 
 ### Development
